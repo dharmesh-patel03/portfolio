@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- This navbar for laptop view -->
+        <nav class="navbar">
+            <div class="logo-part">
+                <img class="logo" src="/images/logo.png" alt="">
+            </div>
+            <div class="day-night-toggle">
+                <i class="fa-solid fa-sun toggle-btn day"></i>
+                <i class="fa-solid fa-moon toggle-btn night"></i>
+            </div>
+            <div class="pages">
+                <ul>
+                    <li><a href="#" class="">Home</a></li>
+                    <li><a href="#about" class="">About</a></li>
+                    <li><a href="#skill" class="">Skils</a></li>
+                    <li><a href="#service" class="">Services</a></li>
+                    <li><a href="#portfolio" class="">Portfolio</a></li>
+                    <li><a href="#testimonials" class="">Testimonials</a></li>
+                    <li><a href="#contact" class="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- This navbar is for small devices -->
+        <nav class="navbar1" id="navbar">
+            <div class="logo-part">
+                <img class="logo" src="/images/logo.png" alt="">
+            </div>
+            <ul class="list" id="list">
+                <li><a href="#" class="">Home</a></li>
+                <li><a href="#about" class="">About</a></li>
+                <li><a href="#skill" class="">Skils</a></li>
+                <li><a href="#service" class="">Services</a></li>
+                <li><a href="#portfolio" class="">Portfolio</a></li>
+                <li><a href="#testimonials" class="">Testimonials</a></li>
+                <li><a href="#contact" class="">Contact</a></li>
+            </ul>
+            <!-- menu -->
+            <div class="menu" onclick="myFunction()" id="menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <!-- main section -->
+    <section class="main-section">
+        <div class="content">
+            <h2 class="sub-title">Hello genius <span>I'm</span></h2>
+            <h1 class="title">Dharmesh Patel</h1>
+            <p class="content">I am a Computer Engineer , and also work as a fullstack Developer</p>
+            <div class="icons">
+                <a href="https://instagram.com/dmptl1801/" target="_blank"><i
+                        class="fa-brands fa-instagram icon"></i></a>
+                <a href="https://x.com/"><i class="fa-brands fa-twitter icon" target="_blank"></i></a>
+                <a href="https://github.com/dharmesh-patel03" target="_blank"><i
+                        class="fa-brands fa-github icon"></i></a>
+                <a href="https://www.linkedin.com/in/dharmesh-patel-6bb2b4202/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in icon"></i></a>
+            </div>
+            <div class="button-group">
+                <a href="/cv/Dharmesh_Patel_CV.pdf" class="btn" download="">Download CV</a>
+                <a href="#contact" class="btn btn-outline">Lets Talk</a>
+            </div>
+        </div>
+        <div class="profile-photo">
+            <img src="/images/dp.png" alt="">
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about" id="about">
+        <h2 class="title">About <span>Me</span></h2>
+        <h3 class="content"> Get To Know</h3>
+        <div class="about-me">
+            <div class="image-part">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29ufGVufDB8fDB8fHww"
+                    alt="" class="">
+            </div>
+            <div class="about-content-part">
+                <div class="about-cards">
+                    <div class="about-card">
+                        <i class="fa-regular fa-user "></i>
+                        <h3>Experience</h3>
+                        <small>1+ years</small>
+                    </div>
+                    <div class="about-card">
+                        <i class="fa-brands fa-folder"></i>
+                        <h3>Project</h3>
+                        <small>15+ Project</small>
+                    </div>
+                    <div class="about-card">
+                        <i class="fa-solid fa-gears"></i>
+                        <h3>skills</h3>
+                        <small>10+ skills</small>
+                    </div>
+                </div>
+                <p class="">Hello! I'm Dharmesh, a passionate and experienced Full Stack Developer. With a robust
+                    background in
+                    both
+                    front-end and back-end technologies, I specialize in crafting seamless, dynamic web applications
+                    that offer
+                    intuitive user experiences and powerful functionality.</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="skill">
+        <h1 class="title">My <span>Skills</span></h1>
+        <div class="skill">
+            <div class="skill-details">
+                <!-- frontend part -->
+                <h3>Front-end Development</h3>
+                <div class="front-end">
+                    <!-- all the front-end skill -->
+                    <article class="all-skills">
+                        <i class="fa-brands fa-html5 exp-icon"></i>
+                        <div class="details">
+                            <h4>HTML</h4>
+                            <small>Experienced</small>
+                        </div>
+                    </article>
+                    <article class="all-skills">
+                        <i class="fa-brands fa-css3 exp-icon"></i>
+                        <div class="details">
+                            <h4>CSS3</h4>
+                            <small>Experienced</small>
+                        </div>
+                    </article>
+                    <article class="all-skills">
+                        <i class="fa-brands fa-js exp-icon"></i>
+                        <div class="details">
+                            <h4>Javascript</h4>
+                            <small>Experienced</small>
+                        </div>
+                    </article>
+                    <article class="all-skills">
+                        <i class="fa-solid fa-wind exp-icon"></i>
+                        <div class="details">
+                            <h4>Tailwind</h4>
+                            <small>Experienced</small>
+                        </div>
+                    </article>
+                    <article class="all-skills">
+                        <i class="fa-brands fa-bootstrap exp-icon"></i>
+                        <div class="details">
+                            <h4>Bootstrap</h4>
+                            <small>Experienced</small>
+                        </div>
+                    </article>
+                    <article class="all-skills">
+                        <i class="fa-brands fa-react exp-icon"></i>
+                        <div class="details">
+                            <h4>React</h4>
+                            <small>Experienced</small>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="skill-details">
+                <!-- backend-part -->
+                <h3>Back-end Developer</h3>
+                <div class="back-end">
+                    <!-- all the backend skills -->
+                    <article class="all-skills">
+                        <i class="fa-brands fa-node-js exp-icon"></i>
+                        <div class="details">
+                            <h4>Node Js</h4>
+                            <small>Intermediate</small>
+                        </div>
+                    </article>
+                    <article class="all-skills">
+                        <i class="fa-brands fa-envira exp-icon"></i>
+                        <div class="details">
+                            <h4>Mongo DB</h4>
+                            <small>Intermediate</small>
+                        </div>
+                    </article>
+                    <article class="all-skills">
+                        <i class="fa-brands fa-php exp-icon"></i>
+                        <div class="details">
+                            <h4>PHP</h4>
+                            <small>Intermediate</small>
+                        </div>
+                    </article>
+                    <article class="all-skills">
+                        <i class="fa-solid fa-server exp-icon"></i>
+                        <div class="details">
+                            <h4>My SQL</h4>
+                            <small>Basic</small>
+                        </div>
+                    </article>
+                    <article class="all-skills">
+                        <i class="fa-brands fa-python exp-icon"></i>
+                        <div class="details">
+                            <h4>Python</h4>
+                            <small>Basic</small>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section -->
+    <section class="service" id="service">
+        <h1 class="title">Our <span>Service</span></h1>
+        <div class="my-services">
+            <div class=" card">
+                <!-- webdesigning card -->
+                <div class="card-heading">
+                    <h3><i class="fa-solid fa-paintbrush"></i></h3>
+                    <h3> Web Designing</h3>
+                </div>
+                <div class="card-content">
+                    <p>Our web design services are all about creating visually captivating and user-friendly interfaces
+                        that
+                        resonate with your target audience. We focus on delivering designs that are not only
+                        aesthetically
+                        pleasing but also highly functional.</p>
+                    <ul>
+                        <li><span>User Research & Analysis:</span> In-depth understanding of your audience to inform
+                            design
+                            decisions.
+                        </li>
+                        <li><span>Wireframing & Prototyping:</span> Visual blueprints to outline the structure and flow
+                            of your
+                            website.</li>
+                        <li><span>Visual Design: </span>Cohesive design elements that reflect your brand identity.</li>
+                        <li><span>Interaction Design:</span> Intuitive interactions that enhance user experience.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- front-edn developmet card -->
+            <div class=" card">
+                <div class="card-heading">
+                    <h3><i class="fa-solid fa-code"></i></h3>
+                    <h3>Front-end Development</h3>
+                </div>
+                <div class="card-content">
+                    <p>Our front-end development services ensure that your website is not just a static design but a
+                        dynamic and interactive platform. We use the latest technologies and best practices to create
+                        responsive and engaging user interfaces.</p>
+                    <ul>
+                        <li><span>Responsive Design:</span>Ensuring your website looks and functions perfectly on all
+                            devices.
+                        </li>
+                        <li><span>HTML, CSS, JavaScript: </span>Clean, efficient, and maintainable code.</li>
+                        <li><span>Performance Optimization: </span>Fast loading times and smooth interactions.</li>
+                        <li><span>Accessibility:</span>Making your website usable for everyone, including those with
+                            disabilities.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- backend development card -->
+            <div class=" card">
+                <div class="card-heading">
+                    <h3><i class="fa-solid fa-server"></i></h3>
+                    <h3>Back-end Development</h3>
+                </div>
+                <div class="card-content">
+                    <p>Behind every great website is a powerful back-end system. Our back-end development services focus
+                        on creating secure, scalable, and efficient solutions that support your business operations.</p>
+                    <ul>
+                        <li><span>Database Management: </span> Structuring and maintaining data for optimal performance.
+                        </li>
+                        <li><span>Server-Side Logic: </span> Implementing business logic to drive your website’s
+                            functionality.</li>
+                        <li><span>API Integration:</span> Connecting your website with external services and
+                            applications.</li>
+                        <li><span>Security:</span> Ensuring your website and user data are protected against threats.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- project section -->
+    <section class="portfolio" id="portfolio">
+        <h1 class="my-projects title">My <span>Project</span></h1>
+        <h3>Portfolio</h3>
+        <!-- all the project cards -->
+        <div class="portfolio-cards">
+            <!-- Application Form -->
+            <div class="portfolio-card">
+                <img src="/images/application-form.png" alt="">
+                <p>Application Form</p>
+                <div class="btn-group">
+                    <a href="https://github.com/dharmesh-patel03" class="portfolio-btn" target="_blank">Link</a>
+                    <a href="https://quiz-app-form01.netlify.app/" class="portfolio-btn-outline" target="_blank">Live
+                        Demo</a>
+                </div>
+            </div>
+            <!-- Dashboard -->
+            <div class="portfolio-card">
+                <img src="/images/dashboard.png" alt="">
+                <p>Dashboard</p>
+                <div class="btn-group">
+                    <a href="https://github.com/dharmesh-patel03" class="portfolio-btn" target="_blank">Link</a>
+                    <a href="https://magical-bavarois-1d08f1.netlify.app/" class="portfolio-btn-outline"
+                        target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <!-- Digital Sign Pad -->
+            <div class="portfolio-card">
+                <img src="/images/digital-sign-pad.png" alt="">
+                <p>Digital Sign Pad</p>
+                <div class="btn-group">
+                    <a href="https://github.com/dharmesh-patel03" class="portfolio-btn" target="_blank">Link</a>
+                    <a href="https://digitalsignpad.netlify.app/" class="portfolio-btn-outline" target="_blank">Live
+                        Demo</a>
+                </div>
+            </div>
+            <!-- DP Note -->
+            <div class="portfolio-card">
+                <img src="/images/dp-note.png" alt="">
+                <p>DP Note</p>
+                <div class="btn-group">
+                    <a href="https://github.com/dharmesh-patel03" class="portfolio-btn" target="_blank">Link</a>
+                    <a href="https://keep-note-01.netlify.app/" class="portfolio-btn-outline" target="_blank">Live
+                        Demo</a>
+                </div>
+            </div>
+            <!-- Dynamic Website -->
+            <div class="portfolio-card">
+                <img src="/images/dynamic-website.png" alt="">
+                <p>Dynamic Website</p>
+                <div class="btn-group">
+                    <a href="https://github.com/dharmesh-patel03" class="portfolio-btn" target="_blank">Link</a>
+                    <a href="https://resilient-lokum-286392.netlify.app/" class="portfolio-btn-outline"
+                        target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <!-- Login Page -->
+            <div class="portfolio-card">
+                <img src="/images/login-page.png" alt="">
+                <p>Login Page</p>
+                <div class="btn-group">
+                    <a href="https://github.com/dharmesh-patel03" class="portfolio-btn" target="_blank">Link</a>
+                    <a href="https://frosty-einstein-9c15fe.netlify.app/" class="portfolio-btn-outline"
+                        target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <!-- Shopping Cart -->
+            <div class="portfolio-card">
+                <img src="/images/shopping-cart.png" alt="">
+                <p>Shopping Cart</p>
+                <div class="btn-group">
+                    <a href="https://github.com/dharmesh-patel03" class="portfolio-btn" target="_blank">Link</a>
+                    <a href="https://shopping-cart03.netlify.app/" class="portfolio-btn-outline" target="_blank">Live
+                        Demo</a>
+                </div>
+            </div>
+            <!-- Sign-up Page -->
+            <div class="portfolio-card">
+                <img src="/images/signup-page.png" alt="">
+                <p>Sign-up Page</p>
+                <div class="btn-group">
+                    <a href="https://github.com/dharmesh-patel03" class="portfolio-btn" target="_blank">Link</a>
+                    <a href="https://signuppage03.netlify.app/" class="portfolio-btn-outline" target="_blank">Live
+                        Demo</a>
+                </div>
+            </div>
+            <!-- To Do List -->
+            <div class="portfolio-card">
+                <img src="/images/to-do-list.png" alt="">
+                <p>To Do List</p>
+                <div class="btn-group">
+                    <a href="https://github.com/dharmesh-patel03" class="portfolio-btn" target="_blank">Link</a>
+                    <a href="https://to-do-list-04.netlify.app/" class="portfolio-btn-outline" target="_blank">Live
+                        Demo</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- testimonials section -->
+    <section class="testimonial" id="testimonials">
+        <h1 class="title"> Testi<span>monials</span> </h1>
+        <div class="testimonials">
+            <!-- first testimonials -->
+            <div class="testimonials-card">
+                <img src="/images/dp.png" alt="">
+                <p>I had the pleasure of working with Dharmesh Patel for my front-end development needs, and I
+                    couldn't be more satisfied with the results.</p>
+                <a href="https://github.com/dharmesh-patel03" class="testimonial-btn">Learn More</a>
+            </div>
+            <!-- second testimonials -->
+            <div class="testimonials-card">
+                <img src="/images/dp.png" alt="">
+                <p>I had the pleasure of working with Dharmesh Patel for my front-end development needs, and I
+                    couldn't be more satisfied with the results.</p>
+                <a href="https://github.com/dharmesh-patel03" class="testimonial-btn">Learn More</a>
+            </div>
+            <!-- third testimonials -->
+            <div class="testimonials-card">
+                <img src="/images/dp.png" alt="">
+                <p>I had the pleasure of working with Dharmesh Patel for my front-end development needs, and I
+                    couldn't be more satisfied with the results.</p>
+                <a href="https://github.com/dharmesh-patel03" class="testimonial-btn">Learn More</a>
+            </div>
+            <!-- forth testimonials -->
+            <div class="testimonials-card">
+                <img src="/images/dp.png" alt="">
+                <p>I had the pleasure of working with Dharmesh Patel for my front-end development needs, and I
+                    couldn't be more satisfied with the results.</p>
+                <a href="https://github.com/dharmesh-patel03" class="testimonial-btn">Learn More</a>
+            </div>
+            <!-- fifth testimonials -->
+            <div class="testimonials-card">
+                <img src="/images/dp.png" alt="">
+                <p>I had the pleasure of working with Dharmesh Patel for my front-end development needs, and I
+                    couldn't be more satisfied with the results.</p>
+                <a href="https://github.com/dharmesh-patel03" class="testimonial-btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- contact me section -->
+    <section class="contact" id="contact">
+        <h1 class="title">Contact <span>Me</span></h1>
+        <div class="contact-form">
+            <!-- this part is fro whatsapp and gmail -->
+            <div class="contact-option">
+                <div class="option">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <h5>Whatsapp</h5>
+                    <small>+91 8980394987</small>
+                </div>
+                <div class="option">
+                    <i class="fa-brands fa-google"></i>
+                    <h5>Gmail</h5>
+                    <small>dp837522@gmail.com</small>
+                </div>
+            </div>
+            <!-- this part is for contact -->
+            <div class="contact-page">
+                <form action="">
+                    <input class="input-field" type="text" placeholder="Enter Your Full Name">
+                    <input class="input-field" type="email" name="" id="" placeholder="Enter Your Email">
+                    <textarea class="input-field" name="" id="" rows="4" placeholder="type Your Message"></textarea>
+                    <button class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <footer class="footer">
+        <h2 class="title">Dharmesh <span>Patel</span></h2>
+        <div class="pages">
+            <ul class="">
+                <li><a href="#" class="">Home</a></li>
+                <li><a href="#about" class="">About</a></li>
+                <li><a href="#skill" class="">Skils</a></li>
+                <li><a href="#service" class="">Services</a></li>
+                <li><a href="#portfolio" class="">Portfolio</a></li>
+                <li><a href="#testimonials" class="">Testimonials</a></li>
+                <li><a href="#contact" class="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <a href="https://instagram.com/dmptl1801/" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
+            <a href="https://x.com/"><i class="fa-brands fa-twitter icon" target="_blank"></i></a>
+            <a href="https://github.com/dharmesh-patel03" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+            <a href="https://www.linkedin.com/in/dharmesh-patel-6bb2b4202/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in icon"></i></a>
+        </div>
+    </footer>
+
+</body>
+<script>
+
+</script>
+
+</html>
